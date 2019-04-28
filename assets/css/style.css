@@ -1,0 +1,89 @@
+body {
+    background-image: url("../images/light-grey-terrazzo.png");
+    font-family: Rockwell, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Nav */
+
+header {
+    border-bottom: 1.5px solid #ccc;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+nav a {
+    font-family: 'Permanent Marker', cursive;
+}
+
+li.pipe:hover {
+    color: rgba(255,255,255,.5) !important;
+}
+
+/* Main */
+
+.page-header {
+    color: #4aaaa5;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 10px;
+}
+
+.container {
+    color: #777;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    line-height: 1.7;
+    width: 960px;
+    margin-bottom: 40px;
+}
+
+hr {
+    border: 1.5px solid #ddd;
+}
+
+/* Footer */
+
+footer {
+    background-color: #343a40;
+    border-top: 8px solid #4aaaa5;
+    max-height: 70px;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+/* Contact Page */
+
+input.form-control {
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    border: none;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background-color: #3c8b88;
+}
+
+/* Portfolio Page */
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
