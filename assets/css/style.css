@@ -17,8 +17,14 @@ nav a {
     font-family: 'Permanent Marker', cursive;
 }
 
-li.pipe:hover {
-    color: rgba(255,255,255,.5) !important;
+ul li {
+    border-right: 1.5px solid #777;
+    padding: 0px 10px 0px 10px;
+    line-height: 10px;
+}
+
+ul li:last-child {
+    border-right: 0;
 }
 
 /* Main */
@@ -29,13 +35,13 @@ li.pipe:hover {
     padding-top: 10px;
 }
 
-.container {
+main .container {
     color: #777;
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid #ddd;
     line-height: 1.7;
-    width: 960px;
-    margin-bottom: 40px;
+    max-width: 960px;
+    margin-bottom: 50px;
 }
 
 hr {
@@ -45,7 +51,6 @@ hr {
 /* Footer */
 
 footer {
-    background-color: #343a40;
     border-top: 8px solid #4aaaa5;
     max-height: 70px;
 }
