@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "[Check out my published site!](https://herrenchek.github.io/Bootstrap-Portfolio/)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herrenchek/Bootstrap-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herrenchek/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/herrenchek/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
